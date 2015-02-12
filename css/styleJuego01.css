@@ -1,8 +1,29 @@
+/*
+ESTILOS DEL JUEGO
 
+body:   #E3F6CE;
+*/
+
+		body
+		{		
+		    background: #E3F6CE;
+		    text-align: center;
+		}
 
 h1 {
 	color: blue;
-	background-color: red;
+	background-color: #D0F5A9;
+
+}
+
+h2 {
+	color : #424242;
+	background-color: #D0F5A9;
+}
+h3{
+	color: #424242;
+	background-color: ;
+	text-shadow: 0px 2px 3px #555;
 }
 
 #objetoCanvas1 {
