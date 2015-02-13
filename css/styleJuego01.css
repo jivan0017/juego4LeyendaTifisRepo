@@ -4,11 +4,11 @@ ESTILOS DEL JUEGO
 body:   #E3F6CE;
 */
 
-		body
-		{		
-		    background: #E3F6CE;
-		    text-align: center;
-		}
+body
+{		
+    background: #E3F6CE;
+    text-align: center;
+}
 
 h1 {
 	color: blue;
