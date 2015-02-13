@@ -1,0 +1,57 @@
+<!-- COMPATIBILIDAD HTML 5 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CONFIGURAR LA CODIFICACION-->
+	<meta charset="utf-8" />
+	<title>My title</title>
+
+	<link rel="stylesheet" href="css/styleJuego01.css">
+
+		<!-- LLAMADO A LA FUNCION JAVA SCRIPT-->
+	<script type="text/javascript" src="js/juego01Controller.js">
+	</script>
+
+
+</head>
+
+
+<!-- CUERPO DEL DOCUMENTO -->
+<body>
+ <!-- SEMANTICA HTML5 -->
+ <HEADER>
+ 	<NAV>
+ 		
+ 	</NAV>
+
+	 	<div>
+	 		<h1>TEST ATRAPANDO A LIZ :  Produccion</h1>
+	 	</div>
+
+	 	<h3>Ing. Jaime Díaz.  ::  Curso de PROGRAMACION BASICA</h3>
+ </HEADER>
+
+<div>
+
+	Coordenada X:
+	<input type="text" id="txtX" value=""/>
+	Coordenada Y:
+
+	<input type="text" id="txtY" value=""/></div>
+	</br>
+<!-- SECCION  DONDE IRA EL MODULO DE CANVAS  -->
+<canvas id="moduloCanvas" width="500" height="500"></canvas>
+
+<div id="moduloCoordenadas">
+
+</div>
+
+	
+</body>
+
+<!-- bloque de ejecucion para el cargado completo del documento y la ejecucion de la funcion javaScript-->
+<script type="text/javascript">
+	juego01voidMain();
+</script>
+
+</html>
