@@ -1,0 +1,49 @@
+<!-- COMPATIBILIDAD HTML 5 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CONFIGURAR LA CODIFICACION-->
+	<meta charset="utf-8" />
+	<title>My title</title>
+		<!-- LLAMADO A LA FUNCION JAVA SCRIPT-->
+	<script type="text/javascript" src="js/juego01Controller.js">
+		
+	</script>
+
+    <style type="text/css">
+		body
+		{
+		    background: black;
+		    text-align: center;
+		}
+    </style>
+
+
+</head>
+<!-- CUERPO DEL DOCUMENTO -->
+<body>
+ <HEADER>
+ 	<NAV>
+ 		
+ 	</NAV>
+
+	 	<div>
+	 		<H1>TEST ATRAPANDO A LIZ</H1>
+	 	</div>
+
+ </HEADER>
+
+
+
+<canvas id="moduloCanvas" width="500" height="500"></canvas>
+
+
+	
+</body>
+
+<!-- bloque de ejecucion para el cargado completo del documento y la ejecucion de la funcion javaScript-->
+<script type="text/javascript">
+	juego01voidMain();
+</script>
+
+</html>
